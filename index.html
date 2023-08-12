@@ -26,8 +26,8 @@
                 <li class="nav__link">
                     <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
                 </li>
-                <li class="nav__link">
-                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black"><i class="fa-solid fa-circle-half-stroke"></i></a>
+                <li class="nav__link click">
+                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black click"><i class="fa-solid fa-circle-half-stroke"></i></a>
                 </li>
             </ul>
         </nav>
@@ -40,14 +40,47 @@
                     Here's a bit more <b class="blue">about me.</b>
                 </p>
                 <div class="social__list">
-                    <a href="" class="social__link"> <i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="" class="social__link"> <i class="fa-brands fa-github"></i></a>
-                    <a href="" class="social__link"> <i class="fa-regular fa-file-pdf"></i></a>
+                    <a href="" class="social__link click"> <i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="" class="social__link click"> <i class="fa-brands fa-github"></i></a>
+                    <a href="./assets/Sanchez Resume_2.pdf" target="_blank" class="social__link click"> <i class="fa-regular fa-file-pdf"></i></a>
                 </div>
             </div>
-
         </header>
+        <button class="mail__btn click">
+            <i class="fa-solid fa-envelope"></i>
+        </button>
+        <a href="#projects" class="scroll">
+            <div class="scroll__icon click"></div>
+        </a>
     </section>
-    
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title"> Here are some of my <span class="blue">projects</span></h1>
+                <ul class="project__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                            <div class="project__description">
+                                <h3 class="project__description--title">
+                                    Car Sales Projects
+                                </h3>
+                                <h4 class="project__description--sub-title">
+                                    Html, CSS, JavaScript, Vue, Vuex
+                                </h4>
+                                <p class="project__description--para">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam aperiam eligendi quaerat obcaecati velit earum atque pariatur, minus labore. Commodi mollitia quia pariatur iste aspernatur, tempora omnis. Reiciendis, natus culpa.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="" class="project__description--link"> <i class="fa-brands fa-github"></i></a>
+                                    <a href="" class="project__description--link"> <i class="fa-solid fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
