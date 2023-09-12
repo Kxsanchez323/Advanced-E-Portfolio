@@ -101,6 +101,10 @@ input:focus, textarea:focus {
     color: #25C9D3 !important;
 }
 
+.hide__bg {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
 
 .link__hover-effect {
     position: relative;
@@ -273,6 +277,7 @@ nav {
 #personal-logo {
     width: 50px;
     height: 50px;
+    mix-blend-mode: multiply;
 }
 
 .nav__link--list {
@@ -679,5 +684,9 @@ nav {
     }
     .modal__half  {
         padding: 40px;
+    }
+    .mail__btn {
+        width: 45px;
+        height: 45px;
     }
 }
