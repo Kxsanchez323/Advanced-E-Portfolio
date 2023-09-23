@@ -77,6 +77,9 @@ input:focus, textarea:focus {
     padding: 0 12px;
 }
 
+.opacity {
+    opacity: 0;
+}
 .click {
     transition: all 300ms ease;
     cursor: pointer;
